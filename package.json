@@ -1,0 +1,16 @@
+{
+  "name": "heatwatch-api",
+  "version": "0.1.0",
+  "description": "HeatWatch API server",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "hiredis": "^0.1.17",
+    "lodash": "^2.4.1",
+    "node-uuid": "^1.4.1",
+    "redis": "^0.10.3",
+    "restify": "^2.8.1"
+  }
+}
